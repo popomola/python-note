@@ -28,9 +28,12 @@
 
 # 기술노트
 ! pandas에서 데이터프레임과 시리즈, 시리즈와 시리즈를 합치고 싶다면 pd.concat를 사용할 것. 기본은 같은 column을 갖는 row들을 위아래로 붙이는 것. aixs=1로 주면 서로 다른 column을 가진 애들까리 합칠 수 있다.
-!
+! pandas에서 loc과 iloc 이 두 개가 대표적인 데이터프레임의 값을 가져오는 방법. 
+! iloc이 제일 편해 보인다. iloc(행인덱스, 열인덱스) 헷갈리면 검색 ㄱ
 !
 
 
 # 데이터 시각화
+! matplotlib는 기본 영문 폰트를 쓴다. 때문에 한글 인식이 안 된다. 이를 해결하기 위해
+plt.rc('font', family='Malgun Gothic') 이 코드를 plt.show() 전에 붙여쓰자.
 ! 
